@@ -1,1 +1,1 @@
-summery(Forest)
+summary(Forest)
