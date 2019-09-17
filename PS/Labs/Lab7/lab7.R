@@ -37,3 +37,18 @@ IQR(Forest$wind)
 my.data<-subset(Forest,(Forest$day=="Friday")&(Forest$month=="August"))
 nrow(my.data)
 
+# average temperature, during September = 8.577326
+my.data<-subset(Forest,(Forest$day=="sep"))
+my.data
+mean(my.data$temp)
+
+# most observations during month of July = 4
+my.data<-subset(Forest,(Forest$month == "jul"))
+my.data
+
+get.mode<-function(x){
+  counts<-table(x)
+  names(counts[counts == max(counts)])
+}
+
+get.mode(my.data$day)
