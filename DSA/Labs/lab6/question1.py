@@ -8,6 +8,10 @@ def insertion_sort(array):
             j -= 1
         array[j + 1] = key
 
-arr = [12, 11, 13, 5, 6]
-insertion_sort(arr)
-print(arr)
+array = list()
+n = int(input("Enter array length : "))
+for i in range(n):
+    array.append(int(input("Enter num : ")))
+
+insertion_sort(array)
+print(array)
