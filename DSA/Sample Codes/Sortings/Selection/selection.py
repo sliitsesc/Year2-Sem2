@@ -8,6 +8,7 @@ def sort(nums):
         temp = nums[i]
         nums[i] = nums[minpos]
         nums[minpos] = temp
-nums = [5,4,3,1,2,7]
+nums = list(map(int, input("Enter the Numbers: ").split()))
+#nums = [5,4,3,1,2,7]
 sort(nums)
 print(nums)
