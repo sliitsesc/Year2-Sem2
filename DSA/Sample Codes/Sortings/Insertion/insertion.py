@@ -1,4 +1,4 @@
-
+#Insertion Sort
 def sort(nums):
     for i in range (1, len(nums)):
         for j in range (i, 0, -1):
