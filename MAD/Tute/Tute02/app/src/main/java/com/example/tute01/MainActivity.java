@@ -1,3 +1,5 @@
+//MAD Tute 02
+//Text View and Activity Life Cycle
 package com.example.tute01;
 
 import androidx.appcompat.app.AppCompatActivity;
