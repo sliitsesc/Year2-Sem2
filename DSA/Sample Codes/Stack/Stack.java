@@ -1,5 +1,3 @@
-package DSA.Stack;
-
 /**
  * @author chamodshehanka on 8/5/2019
  * @project Demo
