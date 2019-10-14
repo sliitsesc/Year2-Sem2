@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="loginTitle">The CourseApp</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="registerHeader">Register Form</string>
+    <string name="teacherLabel">Teacher</string>
+    <string name="studentLabel">Student</string>
+    <string name="welcome">Welcome</string>
+    <string name="subjectHint">Subject</string>
+    <string name="messageHint">Message</string>
+    <string name="sendButton">SEND</string>
+</resources>
