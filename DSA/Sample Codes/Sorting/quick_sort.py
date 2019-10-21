@@ -11,5 +11,10 @@ def partition(array, p, r):
 def quick_sort(array, p, r):
     if(p < r):
         q = partition(array, p, r)
+        print(q)
         quick_sort(array, p, q-1)
         quick_sort(array, q + 1, r)
+
+A = [3, 5, 1, 8, 2, 9, 7, 4]
+
+quick_sort(A, 1, len(A) - 1)
