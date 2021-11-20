@@ -1,0 +1,2 @@
+The time complexity of this is O(n) since for each loop of the program the recursive function is called once.
+
