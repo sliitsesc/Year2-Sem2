@@ -1,0 +1,1 @@
+The time complexity for this program is O(3^n) since the program calls the recursive function 3 times for every pass of n.

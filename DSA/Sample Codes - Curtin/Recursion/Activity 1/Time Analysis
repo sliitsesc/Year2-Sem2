@@ -1,0 +1,6 @@
+Factorial: The time complexity for the Factorial function is O(n) as the function is being called recursively n times before 
+reaching the base case.
+
+Fibonacci: The time complexity for the Fibonacci function is O(2^n) because the recursive function is called twice for every n time
+before reaching the base case.
+
